@@ -45,3 +45,65 @@
 [I 03:37:02.904 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 2021-07-08 01:38:36.931 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-08 01:38:36.932 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-08 01:38:36.932 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 01:38:36.932 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-08 01:38:36.945 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-08 01:38:36.945 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 01:38:36.978 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 01:38:36.981 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 01:38:36.982 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 01:38:36.982 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 01:38:36.983 NotebookApp] http://jupyter-gunsch3-2dr-2dlinear-2dmodel-2dvlvuijcs:8888/user/gunsch3-r-linear-model-vlvuijcs/?token=...
+[I 01:38:36.983 NotebookApp]  or http://127.0.0.1:8888/user/gunsch3-r-linear-model-vlvuijcs/?token=...
+[I 01:38:36.983 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:38:36.992 NotebookApp] No web browser found: could not locate runnable browser.
+[I 01:38:38.005 NotebookApp] 302 GET /user/gunsch3-r-linear-model-vlvuijcs/ (10.0.5.98) 0.920000ms
+[I 01:38:40.023 NotebookApp] 302 GET /user/gunsch3-r-linear-model-vlvuijcs/?token=Z5NQoI3aSfeONUrwttAicA (184.57.63.75) 0.780000ms
+[W 01:40:02.465 NotebookApp] Notebook R Plot.ipynb is not trusted
+[I 01:40:02.828 NotebookApp] Kernel started: e8de2599-79d4-43c5-a5c1-f17b5224c1b0, name: ir
+[I 01:40:02.829 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 01:40:02.829 NotebookApp] Culling kernels even with connected clients
+[I 01:40:03.601 NotebookApp] Adapting from protocol version 5.0 (kernel e8de2599-79d4-43c5-a5c1-f17b5224c1b0) to 5.3 (client).
+[I 01:44:03.758 NotebookApp] Saving file at /R Plot.ipynb
+[W 01:44:03.758 NotebookApp] Notebook R Plot.ipynb is not trusted
+[I 01:46:02.897 NotebookApp] Saving file at /R Plot.ipynb
+[I 01:48:02.911 NotebookApp] Saving file at /R Plot.ipynb
+[W 01:48:38.093 NotebookApp] delete /orig.png
+[I 01:50:02.848 NotebookApp] Saving file at /R Plot.ipynb
+[W 01:50:11.894 NotebookApp] delete /orig.png
+[W 01:51:55.049 NotebookApp] delete /orig.png
+[I 01:52:02.925 NotebookApp] Saving file at /R Plot.ipynb
+[W 01:52:52.397 NotebookApp] delete /orig.png
+[W 01:54:00.546 NotebookApp] delete /lm.png
+[W 01:54:00.552 NotebookApp] delete /orig.png
+[I 01:54:03.944 NotebookApp] Saving file at /R Plot.ipynb
+[I 01:54:06.321 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[W 01:54:10.732 NotebookApp] Notebook R Plot.ipynb is not trusted
+[I 01:54:11.238 NotebookApp] Adapting from protocol version 5.0 (kernel e8de2599-79d4-43c5-a5c1-f17b5224c1b0) to 5.3 (client).
+[I 01:54:24.812 NotebookApp] Saving file at /RPlot.ipynb
+[I 01:54:26.711 NotebookApp] Starting buffering for e8de2599-79d4-43c5-a5c1-f17b5224c1b0:f95ba51b6d2c469694095d858093eb7b
+[I 01:56:22.322 NotebookApp] Adapting from protocol version 5.0 (kernel e8de2599-79d4-43c5-a5c1-f17b5224c1b0) to 5.3 (client).
+[I 01:56:28.108 NotebookApp] Saving file at /RPlot.ipynb
+[W 01:56:34.694 NotebookApp] delete /RPlot.r
+[I 01:57:51.675 NotebookApp] Saving file at /RPlot.ipynb
+[W 01:57:58.604 NotebookApp] delete /RPlot.r
+[W 01:57:58.608 NotebookApp] delete /Rplots.pdf
+[W 01:58:40.377 NotebookApp] delete /Rplots.pdf
+[I 01:59:19.194 NotebookApp] Starting buffering for e8de2599-79d4-43c5-a5c1-f17b5224c1b0:def6da9efb174044873cd3294d6c5a56
+[I 02:00:57.762 NotebookApp] Saving file at /RPlot.r
+[W 02:01:19.019 NotebookApp] delete /Rplots.pdf
+[I 02:02:36.927 NotebookApp] Saving file at /RPlot.r
+[W 02:03:01.928 NotebookApp] delete /lm.png
+[I 02:04:33.740 NotebookApp] Saving file at /RPlot.r
